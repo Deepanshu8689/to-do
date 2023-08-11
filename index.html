@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do's</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="todo">
+      <div class="nav-box">
+        <div class="logo">
+          <lord-icon
+            src="https://cdn.lordicon.com/nocovwne.json"
+            class="icon"
+            trigger="hover"
+            colors="primary:#A5C9CA,secondary:#08a88a"
+          >
+          </lord-icon>
+        </div>
+        <div class="title">
+          <h3>To-Do's</h3>
+        </div>
+      </div>
+      <div class="search-box">
+        <div class="searchbar">
+          <input type="text" placeholder="Enter Your Task" id="input" />
+        </div>
+        <div class="button-box">
+          <button>
+            <lord-icon
+              src="https://cdn.lordicon.com/qierxeeb.json"
+              onclick="add()"
+              trigger="hover"
+              colors="primary:#3a3347,secondary:#08a88a,tertiary:#ebe6ef,quaternary:#ffc738,quinary:#646e78"
+              style="
+                background-color: #a5c9ca;
+                border: none;
+                padding: 0;
+                margin: 0;
+                width: 50px;
+                height: 50px;
+              "
+            >
+            </lord-icon>
+          </button>
+        </div>
+      </div>
+      <div class="text"></div>
+    </div>
+
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
